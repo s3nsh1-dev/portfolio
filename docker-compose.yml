@@ -2,7 +2,7 @@ services:
   app:
     build:
       context: .
-      args:
+      # args:
     restart: unless-stopped
     env_file:
       - .env.production
