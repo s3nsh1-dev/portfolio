@@ -1,0 +1,16 @@
+s3nsh1-dev.online {
+encode gzip
+
+    reverse_proxy app:3000
+
+    log {
+        output stdout
+        format console
+    }
+
+}
+
+
+www.s3nsh1-dev.online {
+redir https://s3nsh1-dev.online{uri} permanent
+}
