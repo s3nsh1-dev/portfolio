@@ -7,9 +7,7 @@ const Page = () => {
         <h1 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-slate-100">
           Hello, I am Shubham Pandey
         </h1>
-        <p className="mt-4 text-slate-600 dark:text-slate-300">
-          Thanks for reaching out — this site now uses Tailwind CSS utilities.
-        </p>
+
         <div className="mt-6">
           <a
             href="https://www.linkedin.com/in/pandey228/"
